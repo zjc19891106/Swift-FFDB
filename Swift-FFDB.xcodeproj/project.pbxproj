@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94ABEEBEB97D13F346FF0B03 /* Pods_Swift_FFDBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8684087375A66FC5F1B455 /* Pods_Swift_FFDBTests.framework */; };
-		9A034D1E2032D5AE002365C5 /* ReadmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A034D1D2032D5AE002365C5 /* ReadmeTests.swift */; };
-		9A034D1F2032D5E1002365C5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A034D1A2032D4C2002365C5 /* Person.swift */; };
-		9A0474DA20CEB0A40013197D /* FMDBConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8BE7D720C6D3050026855F /* FMDBConnection.swift */; };
-		9A28D7892057CBCB005758B9 /* ProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28D7882057CBCB005758B9 /* ProtocolTests.swift */; };
 		9A28E60F20B8084B00BC449C /* Select.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28E60E20B8084A00BC449C /* Select.swift */; };
 		9A28E61120B8085800BC449C /* From.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28E61020B8085800BC449C /* From.swift */; };
 		9A28E61320B8088B00BC449C /* Where.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28E61220B8088B00BC449C /* Where.swift */; };
@@ -33,35 +28,8 @@
 		9A35162F1F491C8600571621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A35162E1F491C8600571621 /* ViewController.swift */; };
 		9A3516341F491C8600571621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3516331F491C8600571621 /* Assets.xcassets */; };
 		9A3516371F491C8600571621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3516351F491C8600571621 /* LaunchScreen.storyboard */; };
-		9A44A7EA2068BEDD00FB7937 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44A7E92068BEDD00FB7937 /* DataModel.swift */; };
-		9A44A7EC2068BF5100FB7937 /* DataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44A7EB2068BF5100FB7937 /* DataTest.swift */; };
 		9A4DC4CD20C37FB1004D9CB0 /* FFDBSafeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6031D51FDE2F2D0085A5BB /* FFDBSafeOperation.swift */; };
 		9A4DC4CE20C3839A004D9CB0 /* FFDBTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6031DA1FDF64380085A5BB /* FFDBTransaction.swift */; };
-		9A4DC4CF20C38B6C004D9CB0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44A7E92068BEDD00FB7937 /* DataModel.swift */; };
-		9A4DC4F320C5210B004D9CB0 /* FFDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5056CA1F9C317F0071DAF2 /* FFDB.swift */; };
-		9A4DC4F420C52115004D9CB0 /* FFDB+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5056C91F9C317F0071DAF2 /* FFDB+Extension.swift */; };
-		9A4DC4F520C52118004D9CB0 /* FFDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5056CC1F9C317F0071DAF2 /* FFDBManager.swift */; };
-		9A4DC4F620C5211A004D9CB0 /* FFDBSafeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6031D51FDE2F2D0085A5BB /* FFDBSafeOperation.swift */; };
-		9A4DC4F720C5211C004D9CB0 /* FFDBTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6031DA1FDF64380085A5BB /* FFDBTransaction.swift */; };
-		9A4DC4F820C52120004D9CB0 /* Select.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28E60E20B8084A00BC449C /* Select.swift */; };
-		9A4DC4F920C52120004D9CB0 /* From.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28E61020B8085800BC449C /* From.swift */; };
-		9A4DC4FA20C52120004D9CB0 /* Where.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28E61220B8088B00BC449C /* Where.swift */; };
-		9A4DC4FB20C52120004D9CB0 /* OrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28E61620B80FC000BC449C /* OrderBy.swift */; };
-		9A4DC4FC20C52120004D9CB0 /* Limit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CB05A20BD4D98005DDD98 /* Limit.swift */; };
-		9A4DC4FD20C52120004D9CB0 /* Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CB05820BD4D82005DDD98 /* Offset.swift */; };
-		9A4DC4FE20C52120004D9CB0 /* STMT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28E61420B8089D00BC449C /* STMT.swift */; };
-		9A4DC4FF20C52120004D9CB0 /* Insert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CB05E20BEA293005DDD98 /* Insert.swift */; };
-		9A4DC50020C52120004D9CB0 /* Into.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CB06020BEA29C005DDD98 /* Into.swift */; };
-		9A4DC50120C52120004D9CB0 /* Columns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CB06D20BEB335005DDD98 /* Columns.swift */; };
-		9A4DC50220C52120004D9CB0 /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CB06220BEA2FD005DDD98 /* Values.swift */; };
-		9A4DC50320C52120004D9CB0 /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CB06420BEA4D0005DDD98 /* Update.swift */; };
-		9A4DC50420C52120004D9CB0 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CB06620BEA4EB005DDD98 /* Set.swift */; };
-		9A4DC50520C52120004D9CB0 /* Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CB06820BEAA2B005DDD98 /* Delete.swift */; };
-		9A4DC50620C52120004D9CB0 /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A884C1220C146BF00AE3345 /* Create.swift */; };
-		9A4DC50720C52120004D9CB0 /* Alter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A884C1420C1486F00AE3345 /* Alter.swift */; };
-		9A4DC50820C52120004D9CB0 /* Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A884C1620C14D2200AE3345 /* Add.swift */; };
-		9A4E5AB71F663B1E0084812C /* Swift_FFDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E5AB61F663B1E0084812C /* Swift_FFDBTests.swift */; };
-		9A4E5ABF1F663B300084812C /* InsertTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E5ABE1F663B300084812C /* InsertTest.swift */; };
 		9A884C1320C146BF00AE3345 /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A884C1220C146BF00AE3345 /* Create.swift */; };
 		9A884C1520C1486F00AE3345 /* Alter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A884C1420C1486F00AE3345 /* Alter.swift */; };
 		9A884C1720C14D2200AE3345 /* Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A884C1620C14D2200AE3345 /* Add.swift */; };
@@ -72,26 +40,10 @@
 		9A884C1C20C1513B00AE3345 /* TableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADA707C1FC28ACD008B58B0 /* TableModel.swift */; };
 		9A884C1D20C1513D00AE3345 /* CustomCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADA706E1FC28ACD008B58B0 /* CustomCollectionViewLayout.swift */; };
 		9A8BE7D820C6D3050026855F /* FMDBConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8BE7D720C6D3050026855F /* FMDBConnection.swift */; };
-		9AA578A22388522900350658 /* OrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA578A12388522900350658 /* OrderTests.swift */; };
-		9AAB28011F760B8A0043DCA7 /* FFDBManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB28001F760B8A0043DCA7 /* FFDBManagerTest.swift */; };
-		9AAB28061F760D4D0043DCA7 /* TestStoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB28051F760D4D0043DCA7 /* TestStoreModel.swift */; };
-		9AAB280A1F7648750043DCA7 /* UpdateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB28091F7648740043DCA7 /* UpdateTest.swift */; };
-		9AD614551F906DE8009DB6FA /* DeleteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD614541F906DE8009DB6FA /* DeleteTest.swift */; };
-		9AD6145B1F9096BB009DB6FA /* SelectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6145A1F9096BB009DB6FA /* SelectTest.swift */; };
 		9ADA70801FC28ACD008B58B0 /* ContentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADA70711FC28ACD008B58B0 /* ContentCollectionViewCell.xib */; };
 		9ADA708B1FC28B42008B58B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ADA708A1FC28B42008B58B0 /* Main.storyboard */; };
 		D1B82F9DE3DF724B7D5E3E80 /* Pods_Swift_FFDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CC94E611D8BFA62D7DEC66 /* Pods_Swift_FFDB.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9A4E5AB91F663B1E0084812C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9A3516211F491C8600571621 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9A3516281F491C8600571621;
-			remoteInfo = "Swift-FFDB";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		9AA1AE7C1F96F0600005946C /* Embed Frameworks */ = {
@@ -112,9 +64,6 @@
 		3F1A743F2F3BC30D2060E25C /* Pods_SwiftFFDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFFDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF947B98372906F14A79A9E /* Pods-Swift-FFDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-FFDBTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-FFDBTests/Pods-Swift-FFDBTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C7E824D04CB9B22B28DA8AD /* Pods-Swift-FFDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-FFDBTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-FFDBTests/Pods-Swift-FFDBTests.release.xcconfig"; sourceTree = "<group>"; };
-		9A034D1A2032D4C2002365C5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		9A034D1D2032D5AE002365C5 /* ReadmeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadmeTests.swift; sourceTree = "<group>"; };
-		9A28D7882057CBCB005758B9 /* ProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolTests.swift; sourceTree = "<group>"; };
 		9A28E60E20B8084A00BC449C /* Select.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select.swift; sourceTree = "<group>"; };
 		9A28E61020B8085800BC449C /* From.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = From.swift; sourceTree = "<group>"; };
 		9A28E61220B8088B00BC449C /* Where.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where.swift; sourceTree = "<group>"; };
@@ -135,13 +84,7 @@
 		9A3516331F491C8600571621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A3516361F491C8600571621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A3516381F491C8600571621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A44A7E92068BEDD00FB7937 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		9A44A7EB2068BF5100FB7937 /* DataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTest.swift; sourceTree = "<group>"; };
 		9A4E5AAF1F663AEC0084812C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9A4E5AB41F663B1E0084812C /* Swift-FFDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-FFDBTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A4E5AB61F663B1E0084812C /* Swift_FFDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_FFDBTests.swift; sourceTree = "<group>"; };
-		9A4E5AB81F663B1E0084812C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A4E5ABE1F663B300084812C /* InsertTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertTest.swift; sourceTree = "<group>"; };
 		9A5056C91F9C317F0071DAF2 /* FFDB+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FFDB+Extension.swift"; sourceTree = "<group>"; };
 		9A5056CA1F9C317F0071DAF2 /* FFDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFDB.swift; sourceTree = "<group>"; };
 		9A5056CC1F9C317F0071DAF2 /* FFDBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFDBManager.swift; sourceTree = "<group>"; };
@@ -151,12 +94,6 @@
 		9A884C1420C1486F00AE3345 /* Alter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alter.swift; sourceTree = "<group>"; };
 		9A884C1620C14D2200AE3345 /* Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add.swift; sourceTree = "<group>"; };
 		9A8BE7D720C6D3050026855F /* FMDBConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDBConnection.swift; sourceTree = "<group>"; };
-		9AA578A12388522900350658 /* OrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTests.swift; sourceTree = "<group>"; };
-		9AAB28001F760B8A0043DCA7 /* FFDBManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDBManagerTest.swift; sourceTree = "<group>"; };
-		9AAB28051F760D4D0043DCA7 /* TestStoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStoreModel.swift; sourceTree = "<group>"; };
-		9AAB28091F7648740043DCA7 /* UpdateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTest.swift; sourceTree = "<group>"; };
-		9AD614541F906DE8009DB6FA /* DeleteTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteTest.swift; sourceTree = "<group>"; };
-		9AD6145A1F9096BB009DB6FA /* SelectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTest.swift; sourceTree = "<group>"; };
 		9ADA706E1FC28ACD008B58B0 /* CustomCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewLayout.swift; sourceTree = "<group>"; };
 		9ADA70711FC28ACD008B58B0 /* ContentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentCollectionViewCell.xib; sourceTree = "<group>"; };
 		9ADA70761FC28ACD008B58B0 /* TableDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDetailViewController.swift; sourceTree = "<group>"; };
@@ -178,14 +115,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A4E5AB11F663B1E0084812C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94ABEEBEB97D13F346FF0B03 /* Pods_Swift_FFDBTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -204,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				9A35162B1F491C8600571621 /* Swift-FFDB */,
-				9A4E5AB51F663B1E0084812C /* Swift-FFDBTests */,
 				9A35162A1F491C8600571621 /* Products */,
 				9A4E5AAE1F663AEB0084812C /* Frameworks */,
 				47101B3344DB584AC602DA1A /* Pods */,
@@ -215,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				9A3516291F491C8600571621 /* Swift-FFDB.app */,
-				9A4E5AB41F663B1E0084812C /* Swift-FFDBTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,27 +171,6 @@
 				AD8684087375A66FC5F1B455 /* Pods_Swift_FFDBTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9A4E5AB51F663B1E0084812C /* Swift-FFDBTests */ = {
-			isa = PBXGroup;
-			children = (
-				9A4E5AB61F663B1E0084812C /* Swift_FFDBTests.swift */,
-				9AA578A12388522900350658 /* OrderTests.swift */,
-				9A4E5AB81F663B1E0084812C /* Info.plist */,
-				9AD614541F906DE8009DB6FA /* DeleteTest.swift */,
-				9A4E5ABE1F663B300084812C /* InsertTest.swift */,
-				9AAB28091F7648740043DCA7 /* UpdateTest.swift */,
-				9AD6145A1F9096BB009DB6FA /* SelectTest.swift */,
-				9AAB28001F760B8A0043DCA7 /* FFDBManagerTest.swift */,
-				9AAB28051F760D4D0043DCA7 /* TestStoreModel.swift */,
-				9A034D1A2032D4C2002365C5 /* Person.swift */,
-				9A034D1D2032D5AE002365C5 /* ReadmeTests.swift */,
-				9A28D7882057CBCB005758B9 /* ProtocolTests.swift */,
-				9A44A7EB2068BF5100FB7937 /* DataTest.swift */,
-				9A44A7E92068BEDD00FB7937 /* DataModel.swift */,
-			);
-			path = "Swift-FFDBTests";
 			sourceTree = "<group>";
 		};
 		9A5056C51F9C317F0071DAF2 /* Sources */ = {
@@ -334,26 +240,6 @@
 			productReference = 9A3516291F491C8600571621 /* Swift-FFDB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A4E5AB31F663B1E0084812C /* Swift-FFDBTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9A4E5ABB1F663B1E0084812C /* Build configuration list for PBXNativeTarget "Swift-FFDBTests" */;
-			buildPhases = (
-				CDD761FD6B88AA189F7EBE05 /* [CP] Check Pods Manifest.lock */,
-				9A4E5AB01F663B1E0084812C /* Sources */,
-				9A4E5AB11F663B1E0084812C /* Frameworks */,
-				9A4E5AB21F663B1E0084812C /* Resources */,
-				6833DDD4F388BBD932E5917D /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9A4E5ABA1F663B1E0084812C /* PBXTargetDependency */,
-			);
-			name = "Swift-FFDBTests";
-			productName = "Swift-FFDBTests";
-			productReference = 9A4E5AB41F663B1E0084812C /* Swift-FFDBTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -372,11 +258,6 @@
 							};
 						};
 					};
-					9A4E5AB31F663B1E0084812C = {
-						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 1000;
-						TestTargetID = 9A3516281F491C8600571621;
-					};
 				};
 			};
 			buildConfigurationList = 9A3516241F491C8600571621 /* Build configuration list for PBXProject "Swift-FFDB" */;
@@ -393,7 +274,6 @@
 			projectRoot = "";
 			targets = (
 				9A3516281F491C8600571621 /* Swift-FFDB */,
-				9A4E5AB31F663B1E0084812C /* Swift-FFDBTests */,
 			);
 		};
 /* End PBXProject section */
@@ -410,34 +290,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A4E5AB21F663B1E0084812C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6833DDD4F388BBD932E5917D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Swift-FFDBTests/Pods-Swift-FFDBTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift-FFDBTests/Pods-Swift-FFDBTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		71144C43BEDE6BA337724CA5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,31 +311,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CDD761FD6B88AA189F7EBE05 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Swift-FFDBTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CFB28CD1F51FACBAFC9C6565 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Swift-FFDB/Pods-Swift-FFDB-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Swift-FFDB/Pods-Swift-FFDB-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -489,7 +326,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift-FFDB/Pods-Swift-FFDB-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift-FFDB/Pods-Swift-FFDB-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -519,7 +356,6 @@
 				9A884C1320C146BF00AE3345 /* Create.swift in Sources */,
 				9A4DC4CD20C37FB1004D9CB0 /* FFDBSafeOperation.swift in Sources */,
 				9A4DC4CE20C3839A004D9CB0 /* FFDBTransaction.swift in Sources */,
-				9A4DC4CF20C38B6C004D9CB0 /* DataModel.swift in Sources */,
 				9A2CB06E20BEB335005DDD98 /* Columns.swift in Sources */,
 				9A884C1C20C1513B00AE3345 /* TableModel.swift in Sources */,
 				9A2CB05920BD4D82005DDD98 /* Offset.swift in Sources */,
@@ -534,58 +370,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A4E5AB01F663B1E0084812C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A4DC50320C52120004D9CB0 /* Update.swift in Sources */,
-				9A4DC50720C52120004D9CB0 /* Alter.swift in Sources */,
-				9A4DC50820C52120004D9CB0 /* Add.swift in Sources */,
-				9A4DC4FD20C52120004D9CB0 /* Offset.swift in Sources */,
-				9A4DC4FA20C52120004D9CB0 /* Where.swift in Sources */,
-				9AAB28061F760D4D0043DCA7 /* TestStoreModel.swift in Sources */,
-				9A4DC4F720C5211C004D9CB0 /* FFDBTransaction.swift in Sources */,
-				9A0474DA20CEB0A40013197D /* FMDBConnection.swift in Sources */,
-				9A4DC4F820C52120004D9CB0 /* Select.swift in Sources */,
-				9AAB28011F760B8A0043DCA7 /* FFDBManagerTest.swift in Sources */,
-				9A4DC50420C52120004D9CB0 /* Set.swift in Sources */,
-				9AAB280A1F7648750043DCA7 /* UpdateTest.swift in Sources */,
-				9A034D1E2032D5AE002365C5 /* ReadmeTests.swift in Sources */,
-				9A4DC4F420C52115004D9CB0 /* FFDB+Extension.swift in Sources */,
-				9AD6145B1F9096BB009DB6FA /* SelectTest.swift in Sources */,
-				9A4DC50120C52120004D9CB0 /* Columns.swift in Sources */,
-				9A4E5ABF1F663B300084812C /* InsertTest.swift in Sources */,
-				9A4DC4F620C5211A004D9CB0 /* FFDBSafeOperation.swift in Sources */,
-				9AA578A22388522900350658 /* OrderTests.swift in Sources */,
-				9AD614551F906DE8009DB6FA /* DeleteTest.swift in Sources */,
-				9A28D7892057CBCB005758B9 /* ProtocolTests.swift in Sources */,
-				9A4DC4F520C52118004D9CB0 /* FFDBManager.swift in Sources */,
-				9A4DC4F320C5210B004D9CB0 /* FFDB.swift in Sources */,
-				9A4DC50520C52120004D9CB0 /* Delete.swift in Sources */,
-				9A4DC50020C52120004D9CB0 /* Into.swift in Sources */,
-				9A4E5AB71F663B1E0084812C /* Swift_FFDBTests.swift in Sources */,
-				9A4DC4FC20C52120004D9CB0 /* Limit.swift in Sources */,
-				9A4DC4F920C52120004D9CB0 /* From.swift in Sources */,
-				9A4DC50220C52120004D9CB0 /* Values.swift in Sources */,
-				9A4DC50620C52120004D9CB0 /* Create.swift in Sources */,
-				9A4DC4FE20C52120004D9CB0 /* STMT.swift in Sources */,
-				9A4DC4FF20C52120004D9CB0 /* Insert.swift in Sources */,
-				9A4DC4FB20C52120004D9CB0 /* OrderBy.swift in Sources */,
-				9A44A7EC2068BF5100FB7937 /* DataTest.swift in Sources */,
-				9A034D1F2032D5E1002365C5 /* Person.swift in Sources */,
-				9A44A7EA2068BEDD00FB7937 /* DataModel.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9A4E5ABA1F663B1E0084812C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9A3516281F491C8600571621 /* Swift-FFDB */;
-			targetProxy = 9A4E5AB91F663B1E0084812C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9A3516351F491C8600571621 /* LaunchScreen.storyboard */ = {
@@ -710,13 +495,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				DEVELOPMENT_TEAM = JC854K845H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Swift-FFDB/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Fidetro.Swift-FFDB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -731,50 +516,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				DEVELOPMENT_TEAM = JC854K845H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Swift-FFDB/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Fidetro.Swift-FFDB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9A4E5ABC1F663B1E0084812C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AF947B98372906F14A79A9E /* Pods-Swift-FFDBTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = J3BJ7G2PUN;
-				INFOPLIST_FILE = "Swift-FFDBTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Fidetro.Swift-FFDBTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-FFDB.app/Swift-FFDB";
-			};
-			name = Debug;
-		};
-		9A4E5ABD1F663B1E0084812C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C7E824D04CB9B22B28DA8AD /* Pods-Swift-FFDBTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = J3BJ7G2PUN;
-				INFOPLIST_FILE = "Swift-FFDBTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Fidetro.Swift-FFDBTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-FFDB.app/Swift-FFDB";
 			};
 			name = Release;
 		};
@@ -795,15 +548,6 @@
 			buildConfigurations = (
 				9A35163C1F491C8600571621 /* Debug */,
 				9A35163D1F491C8600571621 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A4E5ABB1F663B1E0084812C /* Build configuration list for PBXNativeTarget "Swift-FFDBTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9A4E5ABC1F663B1E0084812C /* Debug */,
-				9A4E5ABD1F663B1E0084812C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

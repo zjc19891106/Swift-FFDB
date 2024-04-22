@@ -30,11 +30,11 @@ public struct Update:STMT {
 
 // MARK: - Set
 extension Update {
-    public func set(_ set:String) -> Set {
-        return Set(stmt, format: set)
+    public func set(_ set:String) -> FFDBSet {
+        return FFDBSet(stmt, format: set)
     }
     
-    public func set(_ columns:[String]?=nil) -> Set {
-        return Set.init(stmt, columns: columns)
+    public func set(_ columns:[String]?=nil) -> FFDBSet {
+        return FFDBSet.init(stmt, columns: columns)
     }
 }

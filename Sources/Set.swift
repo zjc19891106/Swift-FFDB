@@ -7,13 +7,13 @@
 //
 
 import Foundation
-public struct Set:STMT {
+public struct FFDBSet:STMT {
     let stmt: String
     
 }
 
 // MARK: - internal
-extension Set {
+extension FFDBSet {
 
     init(_ stmt : String,format:String?=nil) {
         self.stmt = stmt +
@@ -39,7 +39,7 @@ extension Set {
 }
 
 // MARK: - Set
-extension Set {
+extension FFDBSet {
     public func `where`(_ where:String) -> Where {
         return Where(stmt, format: `where`)
     }
